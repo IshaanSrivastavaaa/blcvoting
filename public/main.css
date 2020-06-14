@@ -1,0 +1,28 @@
+
+html {
+  scroll-behavior: smooth;
+}
+.carousel-caption{
+  display: flex;
+  flex-direction: column;
+  height: 95%;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+}
+img.animated-gif{
+  width: 60px;
+  height: auto;
+  position: relative;
+  animation-name: example;
+  animation-duration: 6s;
+ 
+
+}
+@keyframes example {
+  40% {background-color: green;}
+  80% {background-color: yellow;}
+}
+
+

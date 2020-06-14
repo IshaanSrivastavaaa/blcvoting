@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Smart Vote</title>
+  <link type='text/css' href='./main.css' rel='stylesheet'>
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src='./index.js'></script>
+
+</head>
+<body class = "bg-info">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="./bruh.png" alt="">
+        <div class="carousel-caption">
+          <h1 class="animated fadeInDown" font-size:400px;>Welcome to <span>Smart Vote DApp</span></h2>
+          <a href="#about" class="btn btn-primary stretched-link">Let's Vote</a>
+          <br>
+          <br>
+          <br>
+          <img class="animated-gif" src="./arrow-down.gif" alt="">
+        </div>
+      </div>
+                
+         
+  <main id="main">
+
+    <section id="about" class="about">
+      <div class="container">
+
+        <div style="text-align:center" class = "bg-success" class="section-title">
+          <h2>Select Candidate and Voter Key</h2>
+        </div>
+
+
+  
+  <div class="container pt-20px">
+  <div style="text-align:center " class="well well-sm">
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th style="text-align:center">Candidate</th>
+          <th style="text-align:center">Votes</th>
+        </tr>
+      </thead>
+      <tbody id='candidatesTable' >
+      </tbody>
+    </table>
+  </div>
+  <div class='dropdown' style="text-align:center">
+      <select id='selectAccount'></select>
+      <select id='selectCandidate'></select>
+      <br>
+      <br>
+      <button type="button" class="btn btn-success" id='voteSubmit'>Vote</button>
+  </div>
+</div>
+</body>
+</html>
+
+
+
